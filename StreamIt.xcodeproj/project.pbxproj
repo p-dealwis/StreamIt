@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A25D45D1EA27636002431F2 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E8C4A1CBFFE3F00EFE574 /* CocoaAsyncSocket.framework */; };
 		1A7E8C391CBFFC7400EFE574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E8C381CBFFC7400EFE574 /* AppDelegate.swift */; };
 		1A7E8C3E1CBFFC7400EFE574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E8C3C1CBFFC7400EFE574 /* Main.storyboard */; };
 		1A7E8C401CBFFC7400EFE574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7E8C3F1CBFFC7400EFE574 /* Assets.xcassets */; };
@@ -15,23 +14,26 @@
 		1A7E8C541CBFFF9A00EFE574 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E8C531CBFFF9A00EFE574 /* CameraViewController.swift */; };
 		1A7E8C561CC0005800EFE574 /* StreamingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E8C551CC0005800EFE574 /* StreamingSession.swift */; };
 		1A7E8C5B1CC0009500EFE574 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7E8C571CC0009500EFE574 /* Queue.swift */; };
+		8B8DF26DFD89D93047B57107 /* Pods_StreamIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E332474507AA1321040C38CB /* Pods_StreamIt.framework */; };
 		93DE98311FDEB62A0048600F /* IPChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DE98301FDEB62A0048600F /* IPChecker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09E322652DCF05DCD099FDD1 /* Pods-StreamIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StreamIt/Pods-StreamIt.debug.xcconfig"; sourceTree = "<group>"; };
 		1A7E8C351CBFFC7400EFE574 /* StreamIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7E8C381CBFFC7400EFE574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A7E8C3D1CBFFC7400EFE574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A7E8C3F1CBFFC7400EFE574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A7E8C421CBFFC7400EFE574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A7E8C441CBFFC7400EFE574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A7E8C4A1CBFFE3F00EFE574 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		1A7E8C4E1CBFFEE900EFE574 /* StreamIt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StreamIt-Bridging-Header.h"; sourceTree = "<group>"; };
 		1A7E8C531CBFFF9A00EFE574 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		1A7E8C551CC0005800EFE574 /* StreamingSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamingSession.swift; sourceTree = "<group>"; };
 		1A7E8C571CC0009500EFE574 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		93DE982F1FDEB62A0048600F /* IPChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPChecker.h; sourceTree = "<group>"; };
 		93DE98301FDEB62A0048600F /* IPChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPChecker.m; sourceTree = "<group>"; };
+		E0E36EB391DE4ED8FB9AFC42 /* Pods-StreamIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StreamIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-StreamIt/Pods-StreamIt.release.xcconfig"; sourceTree = "<group>"; };
+		E332474507AA1321040C38CB /* Pods_StreamIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StreamIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,19 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A25D45D1EA27636002431F2 /* CocoaAsyncSocket.framework in Frameworks */,
+				8B8DF26DFD89D93047B57107 /* Pods_StreamIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19E9432ED1E1288BF65CC028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E332474507AA1321040C38CB /* Pods_StreamIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1A7E8C2C1CBFFC7400EFE574 = {
 			isa = PBXGroup;
 			children = (
-				1A7E8C4A1CBFFE3F00EFE574 /* CocoaAsyncSocket.framework */,
 				1A7E8C371CBFFC7400EFE574 /* StreamIt */,
 				1A7E8C361CBFFC7400EFE574 /* Products */,
+				B21132CC77EFB0D3B0B1E9DE /* Pods */,
+				19E9432ED1E1288BF65CC028 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +100,15 @@
 			path = IPChecker;
 			sourceTree = "<group>";
 		};
+		B21132CC77EFB0D3B0B1E9DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09E322652DCF05DCD099FDD1 /* Pods-StreamIt.debug.xcconfig */,
+				E0E36EB391DE4ED8FB9AFC42 /* Pods-StreamIt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,10 +116,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A7E8C471CBFFC7400EFE574 /* Build configuration list for PBXNativeTarget "StreamIt" */;
 			buildPhases = (
+				46694859D24D48B1853CF00F /* [CP] Check Pods Manifest.lock */,
 				1A7E8C311CBFFC7400EFE574 /* Sources */,
 				1A7E8C321CBFFC7400EFE574 /* Frameworks */,
 				1A7E8C331CBFFC7400EFE574 /* Resources */,
 				1A7E8C4C1CBFFE5400EFE574 /* ShellScript */,
+				2F41DDA98FC382B5C6BE9652 /* [CP] Embed Pods Frameworks */,
+				ABCA77EBF87AC854305B7657 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,7 +145,7 @@
 				TargetAttributes = {
 					1A7E8C341CBFFC7400EFE574 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 3V5265LQM9;
+						DevelopmentTeam = 39QF5MK9B6;
 						LastSwiftMigration = 0920;
 					};
 				};
@@ -161,7 +184,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		1A7E8C4C1CBFFE5400EFE574 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -169,9 +192,60 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		2F41DDA98FC382B5C6BE9652 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StreamIt/Pods-StreamIt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamIt/Pods-StreamIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46694859D24D48B1853CF00F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StreamIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCA77EBF87AC854305B7657 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StreamIt/Pods-StreamIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -314,44 +388,46 @@
 		};
 		1A7E8C481CBFFC7400EFE574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E322652DCF05DCD099FDD1 /* Pods-StreamIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 3V5265LQM9;
+				DEVELOPMENT_TEAM = 39QF5MK9B6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = StreamIt/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.warpcore.StreamIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "StreamIt/StreamIt-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1A7E8C491CBFFC7400EFE574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E36EB391DE4ED8FB9AFC42 /* Pods-StreamIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 3V5265LQM9;
+				DEVELOPMENT_TEAM = 39QF5MK9B6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = StreamIt/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.warpcore.StreamIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "StreamIt/StreamIt-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

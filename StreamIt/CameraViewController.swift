@@ -52,7 +52,7 @@ class CameraViewController: UIViewController {
         }
 
         // Do any additional setup after loading the view.
-        self.captureSession.sessionPreset = .medium
+        self.captureSession.sessionPreset = .iFrame1280x720
         let devices = AVCaptureDevice.devices()
 
         for device in devices {
@@ -181,25 +181,13 @@ class CameraViewController: UIViewController {
         let currentOrientation = UIDevice.current.orientation
         if currentOrientation != self.previousOrientation {
             switch currentOrientation {
-            case .portrait:
-                self.videoOutput.connection(with: .video)?.videoOrientation = .portrait
-                self.rotateLabels(0)
-            case .landscapeRight:
-                self.videoOutput.connection(with: .video)?.videoOrientation = .landscapeLeft
-                self.switchLabels()
-            case .landscapeLeft:
+            default:
                 self.videoOutput.connection(with: .video)?.videoOrientation = .landscapeRight
                 self.rotateLabels(CGFloat(1/2 * Double.pi))
-            case .portraitUpsideDown:
-                self.videoOutput.connection(with: .video)?.videoOrientation = .portraitUpsideDown
-                self.rotateLabels(0)
-            default:
-                self.videoOutput.connection(with: .video)?.videoOrientation = .portrait
-                self.rotateLabels(0)
             }
-
             self.previousOrientation = currentOrientation
         }
+        
     }
 }
 
